@@ -1,0 +1,24 @@
+/*** Fichiers de base ***/
+
+@import "base/base";
+
+/*** Layout ***/
+
+// Header & nav //
+@import "layout/header";
+@import "layout/header/nav";
+
+// Footer
+
+@import "layout/footer";
+@import "layout/footer/resume";
+@import "layout/footer/categorie";
+@import "layout/footer/contact";
+@import "layout/footer/newsletter";
+
+/*** Modules ***/
+
+// Page home
+@import "modules/home";
+@import "modules/home/articles";
+@import "modules/home/advantages";

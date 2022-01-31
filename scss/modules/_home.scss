@@ -1,0 +1,44 @@
+/*___ Module home ___*/
+
+.header-bg {
+  height: auto;
+  margin-bottom: 0.7rem;
+}
+
+.m-home-content-last-articles {
+  background-color: #0089cf;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .m-home-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .m-home-content-last-articles {
+    align-items: stretch;
+  }
+
+  .m-home-content-advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .m-home-content-last-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .m-home-content-last-articles img {
+    width: 25%;
+  }
+}

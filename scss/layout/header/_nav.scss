@@ -1,0 +1,31 @@
+/*___ Barre de navigation ___*/
+
+.l-header-nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.l-header-nav li {
+  padding: 0.14rem 0 0.34rem 0.68rem;
+  border-bottom: solid 0.1rem #c0c0c0;
+}
+.l-header-nav a {
+  color: #0089cf;
+  text-decoration: none;
+}
+
+.l-header-nav .is-active a,
+.l-header-nav a:hover {
+  color: #0d2d3c;
+}
+
+@media screen and (min-width: 768px) {
+  .l-header-nav {
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+  }
+  .l-header-nav li {
+    border: 0;
+    display: inline-block;
+  }
+}

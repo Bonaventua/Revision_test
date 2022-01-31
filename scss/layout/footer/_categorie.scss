@@ -1,0 +1,11 @@
+/*___ Categorie ___*/
+
+.l-footer-info ul{
+    list-style: none;
+    padding-left: 1.5rem;
+
+}
+
+.l-footer-info li::before{
+    content: "> ";
+}

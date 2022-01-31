@@ -1,0 +1,44 @@
+/*___ Header ___*/
+
+.l-header-content {
+  border-top: 0.2rem solid #0089cf;
+}
+
+.l-header-logo {
+  width: 80%;
+  padding: 0.34rem 0 0.68rem 0.68rem;
+}
+
+.l-header-phone {
+  text-align: right;
+  padding: 0.25rem 1rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .l-header-content .wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .l-header-logo {
+    width: 20%;
+  }
+
+  .l-header-phone {
+    padding-top: 1.6rem;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .l-header-content .wrap {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .l-header-phone {
+    margin-left: auto;
+  }
+}
